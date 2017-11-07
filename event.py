@@ -65,9 +65,9 @@ def Parser(url):
  
 def ReadList():
     EventList = ['discover-your-brilliance/939513959466235',
-				'delhi-food-truck-festival/1946508412303834',
-				'adventure-camp-and-dj-night-party/80006771995676',
-				'human-rights-walk-commemorating-1984-anti-sikh-genocide/453326638395047',]
+		 'delhi-food-truck-festival/1946508412303834',
+		 'adventure-camp-and-dj-night-party/80006771995676',
+		 'human-rights-walk-commemorating-1984-anti-sikh-genocide/453326638395047',]
     extracted_data = []
     for i in EventList:
         url = "https://allevents.in/new delhi/"+i
